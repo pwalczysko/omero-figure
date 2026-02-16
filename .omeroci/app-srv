@@ -7,6 +7,7 @@ set -u
 set -x
 set -o pipefail
 
+pip3 install setuptools
 pip3 install reportlab markdown
 rm -rf $OMERO_DIST/lib/scripts/omero
 
